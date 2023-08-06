@@ -1,7 +1,17 @@
+import { ImportantEvents } from "./components/ImportantEvents";
+import { Banner } from "./components/Banner";
+import { About } from "./components/About";
+import { Services } from "./components/Services";
+import { Catalogue } from "@/components/Catalogue";
+
 export const Home = () => {
   return (
-    <>
-      <h1 className="text-red-500">asadasdasdas</h1>
-    </>
+    <section className="pt-16">
+      <Banner />
+      <ImportantEvents />
+      <About/>
+      <Services/>
+      <Catalogue/>
+    </section>
   );
 };

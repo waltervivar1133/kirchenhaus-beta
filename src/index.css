@@ -6,4 +6,11 @@
   html {
     font-family: 'Poppins', sans-serif;
   }
+  body{
+    background: #F8F8F8;
+  }
+}
+
+.layout-content {
+  @apply max-w-7xl mx-auto
 }
